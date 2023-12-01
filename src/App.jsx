@@ -1,14 +1,12 @@
 import './App.css'
+import Header from '../public/Header'
 
 function App() {
-<<<<<<< HEAD
-=======
-
->>>>>>> dd7a9efae000d589e5e02b27c25af98ac1312c89
 
   return (
     <>
-    <h1>eaiiiiiiiii</h1>
+    <Header></Header>
+    
     </>
   )
 }
