@@ -12,9 +12,11 @@
   }
 
 
-  /*.sub{
-    ~^~
-  }*/
+  .sub{
+   background-color: aqua;
+   width: 20%;
+   height: 100%;
+  }
 
   #logo {
     max-width: 100px;/*~^~*/
