@@ -13,7 +13,7 @@ const Header = () => {
           <a href="~^~">Sobre Nós</a>
         </nav>
 
-        <button id="btn_login">Logar/Criar Conta</button>
+        <button id="btn_login">Login</button>
       </header>
     );
   };
