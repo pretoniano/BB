@@ -1,20 +1,26 @@
-import style from './header.module.css';
+import  './header.module.css';
 
 /* Código responsavel pelo cabeçalho*/ 
 
 const Header = () => {
     return (
       <header>
-        <img id="logo" src="caminho/para/sua/logo.png" alt="Logo da sua empresa" />
-  
-        <nav>
-          <a href="~^~">Home</a>
-          <a href="~^~">Produtos</a>
-          <a href="~^~">Sobre Nós</a>
-        </nav>
+        <div className="sub"> 
+          <img id="logo" src="caminho/para/sua/logo.png" alt="Logo da sua empresa" />
+        </div>
 
-        <button id="btn_login">Login</button>
-      </header>
+        <div className="sub">
+          <nav>
+            <a href="~^~">Home</a>
+            <a href="~^~">Produtos</a>
+            <a href="~^~">Sobre Nós</a>
+          </nav>
+        </div>
+
+        <div className="sub">
+          <button id="btn_login">Login</button>
+        </div>
+    </header>
     );
   };
   

@@ -1,7 +1,12 @@
 
 /*Cores das pages*/
 :root {
-    --cor_primaria: #f3f966; /*declaras as cores, ESSA N É A CERTA*/
-    --cor_secundaria: #; /*declaras as cores*/
+    --cor_principal_laranja: #EC7F46; /*Cor Destaque*/
+    --cor_principal_branca: #F7F7F7; /*Fundo*/
+    --cor_principal_preta: #09090A;
+
+  /*--cor_secundaria_: # ;
+    --cor_secundaria_: # ;
+  */
   }
 
