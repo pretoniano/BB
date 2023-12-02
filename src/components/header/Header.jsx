@@ -1,4 +1,5 @@
-import  './header.module.css';
+import React from "react";
+import "../header/header.css"
 
 /* Código responsavel pelo cabeçalho*/ 
 
