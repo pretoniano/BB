@@ -10,7 +10,7 @@ const Header = () => {
           <img id="logo" src="caminho/para/sua/logo.png" alt="Logo da sua empresa" />
         </div>
 
-        <div className="sub">
+        <div className="sub_menu">
           <nav>
             <a href="~^~">Home</a>
             <a href="~^~">Produtos</a>
