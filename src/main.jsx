@@ -9,6 +9,7 @@ import Sobre from './pages/public/sobre/Sobre.jsx' // AboutUsPage - Kock
 import Contato from './pages/public/contato/Contato.jsx'  // ContatosPage  - Kock
 import ErrorPage from './pages/public/error/ErrorPage.jsx' // ErrorPage - Kock
 import Login from './pages/public/login/Login.jsx'  //  LoginPage  - Kock
+import ProdutoKock from './pages/private/produtos/Produto.jsx' //  ProdutoPage  - Kock
 
 import BB from './pages/private/loja/BB.jsx' // Loja - BB
 import Crud from './pages/private/Crud/Menu_Private.jsx'// CrudPageDemo - BB
@@ -34,6 +35,11 @@ const router = createBrowserRouter([
     {
       path:"sobre",
       element:<Sobre/>
+      
+    },
+    {
+      path:"produto",
+      element:<ProdutoKock/>
       
     },
     {
