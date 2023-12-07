@@ -39,6 +39,7 @@ const Header = () => {
 
       <div className="container">
         <div id="btnContainer">
+            <img src="../../public/img/icon_logo.png" alt="" srcset="" id="userMenu" />
             <Link to="/login"><button id="btn_login">Log in</button></Link>
             <Link to="/singup"><button id="btn_signup">Sign up</button></Link>
           </div>
@@ -46,7 +47,7 @@ const Header = () => {
       </section>
       <section id="containerPromo">
         <h2 style={{ color: 'white', fontSize: '16px', fontWeight: 'bold' }}>
-           Promoção, botar para receber um input peroanlizado
+           Promoção, botar para receber um input personalizado
         </h2>
 </section>
     </header>
