@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css"
+import "../assets/styles/header.css"
 import { Link } from "react-router-dom";
 
 /* Código responsavel pelo cabeçalho*/ 
@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
     return (
       <header>
+        <section id="headerContainer">
         <div className="container"> 
           <Link to="/"><img id="logo" src="../../public/img/icon_logo.png" alt="Logo da sua empresa" /></Link>
         </div>
@@ -37,9 +38,19 @@ const Header = () => {
       </nav>
 
       <div className="container">
-        <Link to="/login"><button id="btn_login">Login/Register</button></Link>
-      </div>
+        <div id="btnContainer">
+            <Link to="/login"><button id="btn_login">Log in</button></Link>
+            <Link to="/singup"><button id="btn_signup">Sign up</button></Link>
+          </div>
+         </div>
+      </section>
+      <section id="containerPromo">
+        <h2 style={{ color: 'white', fontSize: '16px', fontWeight: 'bold' }}>
+           Promoção, botar para receber um input peroanlizado
+        </h2>
+</section>
     </header>
+    
     );
   };
   

@@ -1,10 +1,62 @@
 
 /*Cores das pages*/
 :root {
-    --cor_principal_branca: #F7F7F7; /*Fundo*/
-    --cor_principal_laranja: #EC7F46; /*Cor Destaque*/
-    --cor_principal_preta: #09090A;
+  --dark-2: #0a0a0a; /*background*/
+  --dark-1: #1b1b1b;
+  --dark-1-hover: #2e2e2ecb;
+  --roxo-promo: #8f66ff;
+  --branco-1: #f4ebff;
+  --branco: white;
+    
 
-    --cor_verde: #90EE90;
+   
+
+
+    --light-text: rgba(228,228,228,.7);
+    --purple: #dd54a6;
+    --blue: #548bdd;
+    --orange: #c54610;
+    --text: rgba(240,240,240,.79);
+    --deep-sky-blue: #15abff;
+    --dark-2-3: #1b1b1b;
+    --dark: #0b1c36;
+    --overlay: rgba(65,65,65,.15);
+    --8f66ff: #8f66ff;
+
+    --medium-slate-blue: #645cff;
+    --white: white;
+    --medium-slate-blue-2: #cbbef0;
+    --c: #383838;
+
+    --untitled-ui-gray600: #475467;
+    --untitled-ui-gray700: #344054;
+    --untitled-ui-primary600: #7f56d9;
+    --untitled-ui-white: white;
+    --untitled-ui-primary700: #6941c6;
+    --untitled-ui-primary100: #f4ebff;
+    --untitled-ui-gray300: #d0d5dd;
+    --untitled-ui-gray900: #101828;
+    --untitled-ui-primary300: #d6bbfb;
+    --untitled-ui-primary900: #42307d;
+    --untitled-ui-primary200: #e9d7fe;
+    --untitled-ui-gray50-501: #f9fafb;
+    --untitled-ui-gray800: #1d2939;
+    --untitled-ui-gray100: #f2f4f7;
+    --untitled-ui-primary500: #9e77ed;
+    --untitled-ui-primary50-501: #f9f5ff;
+    --untitled-ui-primary800: #53389e;
+    --untitled-ui-success50: #ecfdf3;
+    --untitled-ui-success700: #027a48;
+    --untitled-ui-gray400: #98a2b3;
+
+    --purple: rgb(143, 102, 255);
+    --violet: rgb(100, 92, 255);
+    --pink: rgb(167, 125, 249);
+    --blue: rgb(21, 171, 255);
+    --light: rgb(18, 222, 255);
+    --dark: rgb(13, 140, 255);
+
+
+
   }
 
