@@ -4,15 +4,15 @@ import App from './App.jsx'
 import './index.css'
 
 // Pages
-import Home from './pages/public/Home.jsx' // LeadPage - Kock
-import Sobre from './pages/public/Sobre.jsx' // AboutUsPage - Kock
-import Contato from './pages/public/Contato.jsx'  // ContatosPage  - Kock
-import ErrorPage from './pages/public/ErrorPage.jsx' // ErrorPage - Kock
-import Login from './pages/public/Login.jsx'  //  LoginPage  - Kock
+import Home from './pages/public/home/Home.jsx' // LeadPage - Kock
+import Sobre from './pages/public/sobre/Sobre.jsx' // AboutUsPage - Kock
+import Contato from './pages/public/contato/Contato.jsx'  // ContatosPage  - Kock
+import ErrorPage from './pages/public/error/ErrorPage.jsx' // ErrorPage - Kock
+import Login from './pages/public/login/Login.jsx'  //  LoginPage  - Kock
 
-import BB from './pages/private/BB.jsx' // Loja - BB
-import Crud from './pages/private/Menu_Private.jsx'// CrudPageDemo - BB
-import Produto from './pages/public/Produto.jsx' // ProdutoLojaPage - BB
+import BB from './pages/private/loja/BB.jsx' // Loja - BB
+import Crud from './pages/private/Crud/Menu_Private.jsx'// CrudPageDemo - BB
+import Produto from './pages/private/produtos/Produto.jsx' // ProdutoLojaPage - BB
 
 
 // Config Router
