@@ -3,14 +3,17 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
-// Page
-import Home from './pages/public/Home.jsx'
-import Sobre from './pages/public/Sobre.jsx'
-import BB from './pages/private/BB.jsx'
-import Contato from './pages/public/Contato.jsx'
-import ErrorPage from './pages/public/ErrorPage.jsx'
-import Crud from './pages/private/Menu_Private.jsx'
-import Login from './pages/public/Login.jsx' 
+// Pages
+import Home from './pages/public/Home.jsx' // LeadPage - Kock
+import Sobre from './pages/public/Sobre.jsx' // AboutUsPage - Kock
+import Contato from './pages/public/Contato.jsx'  // ContatosPage  - Kock
+import ErrorPage from './pages/public/ErrorPage.jsx' // ErrorPage - Kock
+import Login from './pages/public/Login.jsx'  //  LoginPage  - Kock
+
+import BB from './pages/private/BB.jsx' // Loja - BB
+import Crud from './pages/private/Menu_Private.jsx'// CrudPageDemo - BB
+import Produto from './pages/public/Produto.jsx' // ProdutoLojaPage - BB
+
 
 // Config Router
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
@@ -25,7 +28,7 @@ const router = createBrowserRouter([
       element: <Home/>
     },
     {
-      path:"b_b",
+      path:"produtos",
       element:<BB/>
     },
     {
@@ -44,6 +47,10 @@ const router = createBrowserRouter([
     {
       path:"login",
       element:<Login/>
+    },
+    {
+      path:"produtos/:id",
+      element:<Produto/>
     }
   ]
   }

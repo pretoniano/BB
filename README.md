@@ -12,41 +12,8 @@ Vamos fazer uma lista de coisas para fazer e tentar realizar elas na ordem dita.
 ===============================================================================================================
 ================================================ Coisa ========================================================
 ===============================================================================================================
-    1º - Parte 
-            01º Organizar as cores.
-            02º Criar o Header.
-            03º Arrumar o index.css e app.css.
-            04º Criar um Footer.
-            05º Criar uma leadpage básica.
-            06º Criar Page Sobre nós.
-            07º Criar Page Fale Conosco.
-            08º Verificar se tudo anteriormente está correto.
-
-    Agora começa de verdadade
-
-    2 - Parte
-            09º Criar Page Produtos
-            10º Criar modelo Page Produto escolhido (favorito, preço, estoque, img, nome, id, tipo)
-            11º Criar um sistema de FILTROS (tipo, preço)
-            12º Criar o input dos produtos 
-            13º Criar um Carrinho.
-            14º Criar um banco de dados.
-            15º Vincular de formar precisa.
-            16º Verificar se tudo anteriormente está correto.
-
-    3 - Parte
-            17º Criar sistema de login.
-            18º Validar Sistema de login.
-            19º Criar banco de dados Referênte.
-            20º Criar CRUD-MENU
-            21º Verificar se tudo anteriormente está correto.
-
-    4 - Parte 
-            22º Criar Sistema de Compra E pagamento.
-            23º Criar menu de pedidos a enviar.
-
-
-    Isso é um esboço simples, provavelmente alguams coisas irão sair e outras entrar.
+    incompleta: fazer header sumir quando scrollar
+                Mudar icon logo
 
 ===============================================================================================================
 
@@ -54,7 +21,7 @@ Vamos fazer uma lista de coisas para fazer e tentar realizar elas na ordem dita.
 ================================================ Regras =======================================================
 ===============================================================================================================
 
-    1º ~^~ deve ser posto para indicar que o local deve receber alterção, pois fica facil de achar usando CTRL + F.
+    1º +++ deve ser posto para indicar que o local deve receber alterção, pois fica facil de achar usando CTRL + F.
 
     2º Commits devem seguir  um padrão, evitar escrever muito ou pouco, informar diretamente o que foi feito.
 

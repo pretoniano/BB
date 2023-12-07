@@ -8,33 +8,33 @@ import { Link } from "react-router-dom";
 const Header = () => {
     return (
       <header>
-        <div className="sub"> 
-          <Link to="/"><img id="logo" src="caminho/para/sua/logo.png" alt="Logo da sua empresa" /></Link>
+        <div className="container"> 
+          <Link to="/"><img id="logo" src="../../public/img/icon_logo.png" alt="Logo da sua empresa" /></Link>
         </div>
 
-        <nav className="sub_menu">
+        <nav className="container_menu">
         <ul>
-          <li>
+          <li className="publicItem"> 
             <Link  to="/">Home</Link>
           </li>
-          <li>
+          <li className="publicItem">
             <Link to="/sobre">Sobre Nós</Link>
           </li>
-          <li>
+          <li className="publicItem">
             <Link to="/contatos">Contatos</Link>
           </li>
-          <li>
-            <Link to="/b_b">BB</Link>
+          <li className="privateItem">
+            <Link to="/produtos">BB</Link>
           </li>
-          <li>
+          <li className="privateItem">
             <Link to="/menu">MENU_ADM</Link>
           </li>
          
         </ul>
       </nav>
 
-      <div className="sub">
-        <Link to="/login"><button id="btn_login">Login</button></Link>
+      <div className="container">
+        <Link to="/login"><button id="btn_login">Login/Register</button></Link>
       </div>
     </header>
     );
