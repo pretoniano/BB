@@ -9,11 +9,12 @@ const Header = () => {
     return (
       <header>
         <section id="headerContainer">
-        <div className="container"> 
+
+        <div id="container_logo"> 
           <Link to="/"><img id="logo" src="../../public/img/icon_logo.png" alt="Logo da sua empresa" /></Link>
         </div>
 
-        <nav className="container_menu">
+        <nav id="container_menu">
         <ul>
           <li className="publicItem"> 
             <Link  to="/">Home</Link>
@@ -37,14 +38,13 @@ const Header = () => {
         </ul>
       </nav>
 
-      <div className="container">
-        <div id="btnContainer">
-            <img src="../../public/img/icon_logo.png" alt="" srcset="" id="userMenu" />
-            <Link to="/login"><button id="btn_login">Log in</button></Link>
-            <Link to="/singup"><button id="btn_signup">Sign up</button></Link>
-          </div>
-         </div>
+     
+      <div id="container_item">
+          <Link to="/login"><button id="btn_login">Log in</button></Link>
+          <Link to="/singup"><button id="btn_signup">Sign up</button></Link>
+      </div>
       </section>
+
       <section id="containerPromo">
         <h2 style={{ color: 'white', fontSize: '16px', fontWeight: 'bold' }}>
            Promoção, botar para receber um input personalizado
