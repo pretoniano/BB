@@ -13,7 +13,7 @@
 
 body{
     margin: 0 auto;
-    background-color: var(--dark-2);
+    background-color: var(--dark);
     max-width: 1920px; /* TAMANHOS DE TELAS ~^~*/
     min-width: 320px;
     max-height: 100%;

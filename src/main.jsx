@@ -10,6 +10,8 @@ import Contato from './pages/public/Contato.jsx'  // ContatosPage  - Kock
 import ErrorPage from './pages/public/ErrorPage.jsx' // ErrorPage - Kock
 import Login from './pages/public/Login.jsx'  //  LoginPage  - Kock
 import ProdutoKock from './pages/private/Produto.jsx' //  ProdutoPage  - Kock
+import Signup from './pages/public/Signup.jsx' //  SingupPage  - Kock
+
 
 import BB from './pages/private/BB.jsx' // Loja - BB
 import Crud from './pages/private/Menu_Private.jsx'// CrudPageDemo - BB
@@ -57,11 +59,13 @@ const router = createBrowserRouter([
     {
       path:"produtos/:id",
       element:<Produto/>
+    },
+    {
+      path:"signup",
+      element:<Signup/>
     }
-  ]
-  }
-
-])
+  
+]}])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
