@@ -1,0 +1,249 @@
+/* Estilo Header */
+@import url(../../color.css);
+
+/* Definições gerais do cabeçalho */
+header {
+  width: 100%;
+  height: 135px; /* Ajuste responsivo para a altura do cabeçalho +++ */
+}
+
+/* Container principal do cabeçalho */
+#headerContainer {
+  width: 100%;
+  height: 60%;
+  background-color: var(--dark-100);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: sticky; /*+++*/
+  z-index: 9;
+}
+
+/* Container da promoção */
+#containerPromo {
+  width: 100%;
+  height: 36%;
+  background-color: var(--roxo-50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#containerPromoOff{
+  display: none;
+}
+
+#containerPromo h2{
+    margin: 0 1rem;
+    display: none;
+  
+}
+
+#containerPromo div{
+  margin: 0 1rem;
+}
+
+/* Side Logo */
+#container_logo {
+  width: 17%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 0 1rem; /* Adicionado para espaçamento no mobile */
+}
+
+/* Estilo do logotipo */
+#logo {
+  height: 60px;
+}
+
+/* Side Menu */
+#container_menu {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo da lista de menu */
+#ulPc {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+/* Estilo dos itens da lista de menu */
+#liPc a {
+  text-decoration: none;
+  color: var(--branco);
+  font-weight: 500;
+}
+
+#liPc a:hover {
+  color: var(--roxo-50);
+}
+
+/* Estilo para itens privados (que podem ser exibidos em determinadas condições) */
+.privateItem {
+  display: none;
+  /* Mudar o tamanho do .container_menu para 50% quando estiver ativo +++ */
+}
+
+/* Side Itens */
+#container_item {
+  width: 17%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo dos botões de login e signup */
+.btn_login,
+.btn_signup {
+  width: 90px;
+  height: 45px;
+  border-radius: 7px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Cores dos botões */
+.btn_login {
+  background-color: var(--dark-100);
+  color: var(--branco);
+}
+
+.btn_signup {
+  margin-left: 20px;
+  background-color: var(--roxo-50);
+  color: var(--branco);
+}
+
+/* Efeito hover nos botões */
+.btn_login:hover {
+  background-color: var(--dark-50);
+}
+
+.btn_signup:hover {
+  background-color: var(--azul-roxo-50);
+}
+
+/* Transições suaves para botões e ícone do usuário */
+.btn_login,
+.btn_signup {
+  transition: background-color 0.3s ease, color 0.2s ease;
+}
+
+/* Media query para telas menores que 991px */
+@media screen and (max-width: 991px) {
+  #container_logo {
+    margin: 0 1rem;
+  }
+
+  #containerPromo {/*Tlvz por para inferior a 600px +++*/
+    height: 50%;  
+  }
+
+  #headerContainer { /*Tlvz por para inferior a 600px +++*/
+    height: 50%;
+  }
+
+
+  #hamburguer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50px;
+    height: 23px;
+    cursor: pointer;
+    margin: 0 1rem;
+    z-index: 5;
+  }
+  .bar {
+    width: 23px;
+    height: 2px;
+    background-color: var(--roxo-50);
+  }
+  #hamburguer.open .bar.t {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  #hamburguer.open .bar.m {
+    opacity: 0;
+  }
+  #hamburguer.open .bar.b {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  #hamburguer .bar {
+    transition: transform 0.6s ease, opacity 0.5s ease;
+  }
+  #ulPc,
+  #btn_login,
+  #btn_signup {
+    display: none;
+  }
+  
+}
+
+#mobile {
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: -200vh;
+  transition: top 0.3s ease;
+  z-index: 4;
+}
+
+
+
+#container_menu_mobile {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#ul_mobile {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%}
+
+.li_mobile a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+#container_item_mobile {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-direction: column;
+}
+
+#btn_login_mobile,
+#btn_signup_mobile {
+  width: 90vw;
+  margin: 7px;
+  font-size: 1.2rem;
+}
