@@ -67,7 +67,7 @@ header {
 }
 
 /* Estilo da lista de menu */
-#ulPc {
+ul {
   width: 60%;
   height: 100%;
   display: flex;
@@ -77,13 +77,13 @@ header {
 }
 
 /* Estilo dos itens da lista de menu */
-#liPc a {
+li a {
   text-decoration: none;
   color: var(--branco);
   font-weight: 500;
 }
 
-#liPc a:hover {
+li a:hover {
   color: var(--roxo-50);
 }
 
