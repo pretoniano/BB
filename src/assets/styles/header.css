@@ -34,7 +34,7 @@ header {
 
 #containerPromo h2{
     margin: 0 1rem;
-    display: none;
+    
   
 }
 
@@ -148,6 +148,11 @@ li a:hover {
   #containerPromo {/*Tlvz por para inferior a 600px +++*/
     height: 50%;  
   }
+
+  #containerPromo h2{
+    display: none;
+  
+}
 
   #headerContainer { /*Tlvz por para inferior a 600px +++*/
     height: 50%;
