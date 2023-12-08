@@ -35,22 +35,22 @@ const Header = (/*+++ linkar props*/) => {
 
         <nav id="container_menu">
           <ul id="ulPc">
-            <li className="publicItem">
+            <li className="publicItem liPc">
               <Link to="/">Home</Link>
             </li>
-            <li className="publicItem">
+            <li className="publicItem liPc">
               <Link to="/produto">Produto</Link>
             </li>
-            <li className="publicItem">
+            <li className="publicItem liPc">
               <Link to="/sobre">Sobre Nós</Link>
             </li>
-            <li className="publicItem">
+            <li className="publicItem liPc">
               <Link to="/contatos">Contatos</Link>
             </li>
-            <li className="privateItem">
+            <li className="privateItem liPc">
               <Link to="/produtos">BB</Link>
             </li>
-            <li className="privateItem">
+            <li className="privateItem liPc">
               <Link to="/menu">MENU_ADM</Link>
             </li>
           </ul>
