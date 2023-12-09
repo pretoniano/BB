@@ -4,13 +4,13 @@
 /* Definições gerais do cabeçalho */
 header {
   width: 100%;
-  height: 135px; /* Ajuste responsivo para a altura do cabeçalho +++ */
+  height: 81px; /* Ajuste responsivo para a altura do cabeçalho +++ */
 }
 
 /* Container principal do cabeçalho */
 #headerContainer {
   width: 100%;
-  height: 60%;
+  height: 100%;
   background-color: var(--dark-100);
   display: flex;
   align-items: center;
@@ -19,28 +19,6 @@ header {
   z-index: 9;
 }
 
-/* Container da promoção */
-#containerPromo {
-  width: 100%;
-  height: 36%;
-  background-color: var(--roxo-50);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#containerPromoOff{
-  display: none;
-}
-
-#containerPromo h2{
-    margin: 0 1rem;
-    
-  
-}
-
-#containerPromo div{
-  margin: 0 1rem;
-}
 
 /* Side Logo */
 #container_logo {
@@ -66,7 +44,7 @@ header {
 }
 
 /* Estilo da lista de menu */
-ul {
+#ulPc {
   width: 60%;
   height: 100%;
   display: flex;
@@ -76,13 +54,13 @@ ul {
 }
 
 /* Estilo dos itens da lista de menu */
-li a {
+.liPc a { 
   text-decoration: none;
   color: var(--branco);
   font-weight: 500;
 }
 
-li a:hover {
+.liPc a:hover {
   color: var(--roxo-50);
 }
 
@@ -144,17 +122,9 @@ li a:hover {
     margin: 0 1rem;
   }
 
-  #containerPromo {/*Tlvz por para inferior a 600px +++*/
-    height: 50%;  
-  }
 
-  #containerPromo h2{
-    display: none;
-  
-}
-
-  #headerContainer { /*Tlvz por para inferior a 600px +++*/
-    height: 50%;
+  header { /*Tlvz por para inferior a 600px +++*/
+    height: 62.5px;
   }
 
 
