@@ -68,7 +68,8 @@ const Header = (/*+++ linkar props*/) => {
         <div
           id="hamburguer"
           onClick={HamburguerOpen}
-          className={open ? "open" : ""}
+          className={open ? "open" : ""
+          }
         >
           <div className="bar t" ></div>
           <div className="bar m" ></div>

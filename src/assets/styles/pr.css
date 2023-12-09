@@ -4,7 +4,7 @@
 /* Container da promoção */
 #containerPromo {
     width: 100%;
-    height: 54px;
+    height: 48px;
     background-color: var(--roxo-50);
     display: flex;
     justify-content: center;
