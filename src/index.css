@@ -17,11 +17,9 @@ htmL{
     align-items: center;}
 
 body{
-   width: 100%;
-   height: 100%;
+    width: 100%;
+    height: 100%;
     background-color: var(--dark);
-    max-width: 1920px; /* TAMANHOS DE TELAS ~^~*/
-    min-width: 320px;
     max-height: 100%;
     min-height: 500px;
     overflow-x: hidden;

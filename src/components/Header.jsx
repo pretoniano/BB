@@ -20,6 +20,7 @@ const Header = (/*+++ linkar props*/) => {
   };
 
   return (
+    <div id="header_responsive">
     <header >
       <section id="headerContainer">
         <div id="container_logo">
@@ -63,7 +64,7 @@ const Header = (/*+++ linkar props*/) => {
             <button id="btn_signup" className="btn_signup">Sign up</button>
           </Link>
         </div>
-
+        
         <div
           id="hamburguer"
           onClick={HamburguerOpen}
@@ -73,7 +74,13 @@ const Header = (/*+++ linkar props*/) => {
           <div className="bar m" ></div>
           <div className="bar b" ></div>
         </div>
-      </section>
+     
+        </section>
+        
+
+      
+    </header>
+    
 
       <section id="mobile" style={{top: open && isMobile ? '0':''}}>
         <nav id="container_menu_mobile">
@@ -108,9 +115,7 @@ const Header = (/*+++ linkar props*/) => {
           </Link>
         </div>
       </section>
-
-      
-    </header>
+    </div>
   );
 };
 
