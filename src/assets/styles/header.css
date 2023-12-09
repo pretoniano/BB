@@ -49,12 +49,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: left;
-  margin: 0 1rem; /* Adicionado para espaçamento no mobile */
 }
 
 /* Estilo do logotipo */
 #logo {
-  height: 60px;
+  height: 45px;
 }
 
 /* Side Menu */
